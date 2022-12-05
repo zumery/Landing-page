@@ -61,6 +61,8 @@ body{
     max-width: 500px;
     flex: auto;
     margin-top: 20px;
+    margin-bottom: 100px;
+    text-align: center;
 }
 .dugme{
     background-color: #3882f6;
@@ -71,6 +73,7 @@ body{
     margin-top: 10px;
     font-size: 15px;
     font-weight: bold;
+    margin-bottom: 100px;
 }
 /*random information*/
 .container{
@@ -78,6 +81,7 @@ body{
     background-color: #ffffff;
     justify-content: space-around;
     padding: 10px;
+    flex: auto;
 }
 .child{
     display: flex;
@@ -113,7 +117,7 @@ body{
     background-color: white;
     justify-content: center;
     align-items: center;
-    width: 230px;
+    max-width: 230px;
     height: 230px;
     flex: auto;
     border: 5px solid blue;
