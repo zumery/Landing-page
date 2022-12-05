@@ -11,7 +11,6 @@ body{
     align-items: center;
     justify-content: center;
     padding: 10px;
-    
 }
 .header{
     display: flex;
@@ -69,7 +68,59 @@ body{
     border-radius: 10px;
     border: none;
     padding: 10px 30px;
-    padding-top: 10px;
+    margin-top: 10px;
     font-size: 15px;
     font-weight: bold;
 }
+/*random information*/
+.container{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-around;
+    padding: 10px;
+}
+.child{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    align-items: center;
+    flex: auto;
+    flex-direction: column;
+}
+.random-infromation{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    display: flex;
+    flex-direction: row;
+
+}
+.jednak{
+    max-width: 230px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+.bjelo{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 230px;
+    flex: auto;
+    border: 5px solid blue;
+    border-radius: 40px;
+}
+.info{
+    margin:10px
+}
+
+
