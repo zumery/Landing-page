@@ -118,13 +118,49 @@ body{
     justify-content: center;
     align-items: center;
     max-width: 230px;
-    height: 230px;
+    max-height: 300px;
+    min-height: 200px;
     flex: auto;
     border: 5px solid blue;
     border-radius: 40px;
 }
 .info{
     margin:10px
+}
+/*quote*/
+.quote{
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex: auto;
+    flex-direction: column;
+}
+.sirina{
+    max-width: 1200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.inspiring{
+    display: flex;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex: auto;
+    margin-bottom: 0px;
+    color: #1f2937;
+}
+.thor{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    margin-top: 0px;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
 }
 
 
