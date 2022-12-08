@@ -16,7 +16,6 @@ body{
     display: flex;
     max-width: 1200px;
     justify-content: space-between;
-    align-items: space-around;
     flex: auto;
 }
 .logo{
@@ -162,5 +161,72 @@ body{
     font-size: 36px;
     color: #1f2937;
 }
-
-
+/*call to action*/
+.to{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    padding: 10px;
+    flex: auto;
+    padding: 100px;
+}
+.action{
+    display: flex;
+    max-width: 1200px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+}
+.by{
+    display: flex;
+    justify-content: space-between;
+    flex: auto;
+    max-width: 1200px;
+    margin: 70px 100px;
+}
+.left  {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex: auto;
+    margin-left: 0px;
+}
+.border{
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    border: 1px white solid;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: auto;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+.call{
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+.product{
+    font-size: 18px;
+    color: white;
+}
+/*footer - copyright*/
+.footer{
+    max-width: 1200px;
+    padding: 50px;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    font-size: 18px;
+    color: #E5E7EB;
+}
